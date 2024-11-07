@@ -13,7 +13,7 @@ const italianno = Italianno({
 });
 
 export default function HeroSection() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
 
   return (
     <div
