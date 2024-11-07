@@ -6,8 +6,8 @@ import { HiUserCircle, HiBell, HiShoppingCart } from "react-icons/hi";
 import { Italianno } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
-import vector12 from "../../public/Vector 12.png"
-import vector11 from "../../public/Vector 11.png"
+import vector12 from "../../public/vector 12.png"
+import vector11 from "../../public/vector 11.png"
 
 const italianno = Italianno({
   weight: "400",
