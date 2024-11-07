@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { HiUserCircle, HiBell, HiShoppingCart } from "react-icons/hi";
 import { Italianno } from "next/font/google";
