@@ -25,13 +25,13 @@ export default function HeroSection() {
         <h1
           className={`${italianno.className} text-6xl sm:text-7xl md:text-8xl lg:text-8xl font-bold text-[#ffdcd1] leading-normal`}
         >
-          The <span className="text-[#ff8886]">Delicious</span> Baked{" "}
+          The <span className="text-[#ff8886]">Delicious</span> Baked
           <br className="hidden sm:block" /> Cake Everyday
         </h1>
         <p
           className={`${italianno.className} mt-8  text-2xl md:text-2xl lg:text-4xl italic font-light text-white`}
         >
-          "Where there is cake, there is hope."
+          Where there is cake, there is hope.
         </p>
 
         {/* Buttons */}

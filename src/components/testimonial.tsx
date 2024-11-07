@@ -1,5 +1,6 @@
 import React from "react";
 import { Italianno } from "next/font/google";
+import Image from "next/image";
 
 const italianno = Italianno({
   weight: "400",
@@ -29,9 +30,11 @@ const Testimonial = () => {
             <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
               <div className="h-28 overflow-hidden rounded-t-lg bg-[#c78d8c]" />
               <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                <img
-                  src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                <Image
+                  src="/testimonial1.webp"
                   alt="Maria John"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="p-6">
@@ -40,14 +43,14 @@ const Testimonial = () => {
                 <p className="mt-4">
                   <span className="inline-block pe-2 [&>svg]:w-5">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns=""
                       fill="currentColor"
                       viewBox="0 0 448 512"
                     >
                       <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
                     </svg>
                   </span>
-                  Thank you, CakeZone, for the amazing cake for our anniversary!
+                  Thank you, CakeZone, for the amazing cake for our anniversary
                   The chocolate layers were rich and moist, and the design
                   matched our theme perfectly. I appreciate your attention to
                   detail and excellent customer service.
@@ -59,9 +62,11 @@ const Testimonial = () => {
             <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
               <div className="h-28 overflow-hidden rounded-t-lg bg-[#ff8886]" />
               <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                <img
-                  src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                <Image
+                  src="/testimonial2.jpeg"
                   alt="Santy Mohan"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="p-6">
@@ -80,7 +85,7 @@ const Testimonial = () => {
                   I ordered a custom cake for my son is first birthday, and it
                   was beyond my expectations! The team was so accommodating with
                   my requests, and the final product was not only gorgeous but
-                  delicious. I will definitely be back for more!
+                  delicious. I will definitely be back for more
                 </p>
               </div>
             </div>
@@ -89,9 +94,11 @@ const Testimonial = () => {
             <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
               <div className="h-28 overflow-hidden rounded-t-lg bg-[#452c38]" />
               <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-                <img
-                  src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                <Image
+                  src="/testimonial3.webp"
                   alt="John Smith"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="p-6">
@@ -108,7 +115,7 @@ const Testimonial = () => {
                     </svg>
                   </span>
                   I am a regular at CakeZone, and I can it get enough of their
-                  cupcakes! They are always fresh, beautifully decorated, and
+                  cupcakes They are always fresh, beautifully decorated, and
                   the flavors are divine. Perfect for any occasion or just a
                   treat for myself! I am satisfied
                 </p>

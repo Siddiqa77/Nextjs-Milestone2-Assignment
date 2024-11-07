@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
 
         {/* Centered Navigation Links */}
-        <nav className="hidden md:flex justify-center flex-grow space-x-8 text-md font-normal sm:text-[#ff8886]">
+        <nav className="hidden md:flex justify-center flex-grow space-x-8 text-sm font-normal sm:text-[#ff8886]">
           <Link
             href="/"
             className={
