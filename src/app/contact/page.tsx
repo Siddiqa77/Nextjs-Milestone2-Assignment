@@ -117,7 +117,7 @@ const Contact = () => {
             </Link>
             <p className="text-md  mt-3 font-mono text-gray-600">
               Whether you are interested in our services, have a suggestion, or
-              need assistance, we're here to help. Let's connect!
+              need assistance, we are here to help. Lets connect!
             </p>
           </div>
         </div>
