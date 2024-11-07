@@ -6,7 +6,7 @@ import { HiBell, HiShoppingCart } from "react-icons/hi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { usePathname } from "next/navigation";
-import vector from "../../public/Vector.png"
+import vector from "../../public/vector.png"
 
 export default function Hero() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
