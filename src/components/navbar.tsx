@@ -61,7 +61,7 @@ export default function Hero() {
           <Link
             href="/blogdata"
             className={
-              pathname === "/" ? "text-[#ffdcd1]" : "hover:text-pink-300"
+              pathname === "/blogdata" ? "text-[#ffdcd1]" : "hover:text-pink-300"
             }
           >
             BLOG

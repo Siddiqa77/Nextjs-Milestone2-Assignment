@@ -53,12 +53,12 @@ export default function HeroSection() {
           <FaFacebookF className="cursor-pointer" />
           <FaInstagram className="cursor-pointer" />
           <FaTwitter className="cursor-pointer" />
-          <img className="h-[190px] w-[1px]" src="/vector 11.png" alt="" />
+          <Image className="h-[190px] w-[1px]" src={vector11} alt="" />
         </div>
 
         {/* Social Media Icons on the Right */}
         <div className="absolute top-20 right-0 flex flex-col items-center space-y-4 mr-4 text-white md:mr-8">
-          <Image className="h-[190px] w-[1px]" src={vector11} alt="" />
+          <Image className="h-[190px] w-[1px]" src={vector12} alt="" />
           <HiUserCircle className="cursor-pointer" />
           <HiBell className="cursor-pointer" />
           <HiShoppingCart className="cursor-pointer" />
