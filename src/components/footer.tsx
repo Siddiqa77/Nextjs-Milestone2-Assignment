@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import vector from "../../public/vector.png"
 
 const Footer = () => {
   return (
@@ -132,7 +133,7 @@ const Footer = () => {
       <div className="bg-gray-100 md:w-full">
         <div className="footer-container lg:w-full bg-[#1a1618] border-t-2 border-y-[#ff8886] opacity-6 px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <div className="flex items-center space-x-2">
-            <Image src="/vector.png" alt="CakeMate Logo" width={40} height={40} />
+            <Image src={vector} alt="CakeMate Logo" width={40} height={40} />
             <div>
               <span className="block text-[#ffdcd1] text-xl font-['Notable']">
                 CAKE

@@ -6,6 +6,7 @@ import { HiBell, HiShoppingCart } from "react-icons/hi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { usePathname } from "next/navigation";
+import vector from "../../public/Vector.png"
 
 export default function Hero() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ export default function Hero() {
       <header className="container mx-auto flex justify-between items-center py-6 px-4 md:px-8 text-white">
         {/* Logo */}
         <div className="flex items-center space-x-2 transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer">
-          <Image src="/vector.png" alt="CakeMate Logo" width={40} height={40} />
+          <Image src={vector} alt="CakeMate Logo" width={40} height={40} />
           <div>
             <span className="block text-[#ffdcd1] text-xl font-['Notable']">
               CAKE

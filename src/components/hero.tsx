@@ -5,6 +5,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { HiUserCircle, HiBell, HiShoppingCart } from "react-icons/hi";
 import { Italianno } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
+import vector12 from "../../public/Vector 12.png"
+import vector11 from "../../public/Vector 11.png"
 
 const italianno = Italianno({
   weight: "400",
@@ -46,7 +49,7 @@ export default function HeroSection() {
         {/* Social Media Icons on the Left */}
 
         <div className="absolute top-20 left-0 flex flex-col items-center space-y-4 ml-4 text-white md:ml-8">
-          <img className="h-[190px] w-[1px]" src="/vector 12.png" alt="" />
+          <Image className="h-[190px] w-[1px]" src={vector12} alt="" />
           <FaFacebookF className="cursor-pointer" />
           <FaInstagram className="cursor-pointer" />
           <FaTwitter className="cursor-pointer" />
@@ -55,11 +58,11 @@ export default function HeroSection() {
 
         {/* Social Media Icons on the Right */}
         <div className="absolute top-20 right-0 flex flex-col items-center space-y-4 mr-4 text-white md:mr-8">
-          <img className="h-[190px] w-[1px]" src="/vector 12.png" alt="" />
+          <Image className="h-[190px] w-[1px]" src={vector11} alt="" />
           <HiUserCircle className="cursor-pointer" />
           <HiBell className="cursor-pointer" />
           <HiShoppingCart className="cursor-pointer" />
-          <img className="h-[190px] w-[1px]" src="/vector 11.png" alt="" />
+          <Image className="h-[190px] w-[1px]" src={vector11} alt="" />
         </div>
       </div>
       {/* Back to top button */}
