@@ -19,7 +19,7 @@ const Gallery = () => {
 
       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
         <div className="flex flex-wrap -m-1 sm:-m-2">
-          {["wed1.jpg", "wed2.jpg", "wed3.jpg", "wed4.jpg", "wed5.jpg", "wed6.jpg"].map((src, index) => (
+          {["wed1.jpg", "wed2.webp", "wed3.jpg", "wed4.jpg", "wed5.jpg", "wed6.webp"].map((src, index) => (
             <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-1 sm:p-2">
               <Image
                 alt="gallery"
