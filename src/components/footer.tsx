@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import vector from "../../public/vector.png"
+import vector from "../../public/Vector.png"
 
 const Footer = () => {
   return (
