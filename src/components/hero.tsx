@@ -49,7 +49,7 @@ export default function HeroSection() {
         {/* Social Media Icons on the Left */}
 
         <div className="absolute top-20 left-0 flex flex-col items-center space-y-4 ml-4 text-white md:ml-8">
-          <Image className="h-[190px] w-[1px]" src={vector12} alt="" />
+          <Image className="h-[190px] w-[1px]" src={vector12} alt="" width={10} height={10} />
           <FaFacebookF className="cursor-pointer" />
           <FaInstagram className="cursor-pointer" />
           <FaTwitter className="cursor-pointer" />
