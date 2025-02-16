@@ -14,7 +14,8 @@ export async function POST(req: Request) {
     const hash = crypto.createHmac("sha256", secret).update(userId).digest("hex");
 
     return NextResponse.json({ hash }, { status: 200 });
-  } catch (error) {
+  } catch  {
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
+  
 }

@@ -2,6 +2,7 @@
 // components/BlogList.js
 
 import blogs from '@/data';
+import Image from 'next/image';
 import React from 'react';
 
 
@@ -13,9 +14,11 @@ const BlogList = () => {
             key={index}
             className="w-64 border border-gray-200 rounded-lg shadow-lg overflow-hidden p-4 bg-white"
           >
-            <img
+            <Image
               src={blog.imageUrl}
               alt={blog.title}
+              width={100}
+              height={100}
               className="w-full h-40 object-cover rounded-lg"
             />
             <h2 className="mt-4 text-lg font-semibold text-gray-900">{blog.title}</h2>
